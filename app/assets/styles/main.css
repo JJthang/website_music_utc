@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@theme {
+    /* config color */
+    --color-black: #3A3541;
+    --color-light: #89868D;
+    --color-disable: #B4B2B7;
+    --color-tahiti: #3ab7bf;
+    --color-bermuda: #78dcca;
+    --color-primary: #232e48;
+    --color-gradient-50: #C2A1FD;
+    --color-gradient-100: #9154FD;
+
+    /* Yellow  */
+    --color-yellow-light: #fff6de;
+    --color-yellow: #ffd25d;
+
+
+
+    /* Surface */
+    --color-white: #FFFFFF;
+    --color-light-gray: #F4F5F9;
+    --color-light-purple: #F4F5F9;
+    --color-gray-border: #DBDCDE;
+    --color-primary-light: #303f62; 
+    --color-primary: #232e48;
+    
+
+
+    /* Theme  */
+    --breakpoint-xs: 30rem;
+    --breakpoint-sm: 48rem;
+    --breakpoint-md: 62rem;
+    --breakpoint-lg: 64rem;
+    --breakpoint-xl: 92.5rem;
+
+
+    /* Font-Size */
+      --text-xxs: 0.625rem;
+      --text-11: 11px;
+      --text-xs: 0.75rem;
+      --text-13: 13px;
+      --text-sm: 0.875rem;
+      --text-15: 15px;
+      --text-base: 1rem;
+      --text-md: 1.125rem;
+      --text-lg: 1.25rem;
+      --text-xl: 1.5625rem;
+      --text-2xl: 1.75rem;
+      --text-xl: 2rem;
+      --text-4xl: 2.375rem;
+
+
+
+
+          /* Purple - Màu chủ đạo */
+    --color-purple: #9b4de0;
+    --color-purple-dark: #7826b4;
+    --color-purple-light: #c273ed;
+    
+    /* Background */
+    --color-bg-primary: #170f23;
+    --color-bg-secondary: #231b2e;
+    --color-bg-tertiary: #2f2739;
+    --color-bg-alpha: rgba(23, 15, 35, 0.9);
+    
+    /* Sidebar */
+    --color-sidebar: #231b2e;
+    --color-sidebar-hover: #2f2739;
+    
+    /* Player */
+    --color-player-bg: #130c1c;
+    --color-player-border: rgba(255, 255, 255, 0.1);
+    
+    /* Text */
+    --color-text-primary: #ffffff;
+    --color-text-secondary: rgba(255, 255, 255, 0.5);
+    --color-text-placeholder: rgba(255, 255, 255, 0.3);
+    
+    /* Border */
+    --color-border: rgba(255, 255, 255, 0.1);
+    --color-border-dark: rgba(0, 0, 0, 0.1);
+    
+    /* Hover states */
+    --color-hover: rgba(255, 255, 255, 0.1);
+    --color-hover-purple: rgba(155, 77, 224, 0.1);
+    
+    /* Accent colors */
+    --color-link: #3596f7;
+    --color-success: #52c41a;
+    --color-warning: #faad14;
+    --color-error: #ff4757;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(to right, #9b4de0, #c273ed);
+    --gradient-dark: linear-gradient(180deg, #740091, #2d1a4d);
+}
